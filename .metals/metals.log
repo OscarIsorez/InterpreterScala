@@ -1,0 +1,548 @@
+2024.03.21 09:07:36 INFO  Started: Metals version 1.2.0 in folders '/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala' for client Visual Studio Code 1.85.1.
+2024.03.21 09:07:37 WARN  Build server is not auto-connectable.
+2024.03.21 09:07:37 WARN  no build target for: /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:07:39 INFO  no build target found for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.03.21 09:07:40 WARN  no build target for: /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:07:43 INFO  running '/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals6548194703001187294/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.03.21 09:07:43 INFO  time: code lens generation in 5.27s
+2024.03.21 09:07:43 INFO  time: code lens generation in 3.88s
+2024.03.21 09:07:43 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.8  (this may take some time)...
+2024.03.21 09:07:51 INFO  [info] welcome to sbt 1.9.8 (Private Build Java 1.8.0_392)
+2024.03.21 09:07:53 INFO  [info] loading settings for project squelette-projet-interpreter-build-build from metals.sbt ...
+2024.03.21 09:07:54 WARN  no build target for: /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:07:53 INFO  [info] loading project definition from /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/project/project
+2024.03.21 09:07:56 INFO  [info] loading settings for project squelette-projet-interpreter-build from metals.sbt ...
+2024.03.21 09:07:56 INFO  [info] loading project definition from /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/project
+2024.03.21 09:07:58 INFO  [success] Generated .bloop/squelette-projet-interpreter-build.json
+2024.03.21 09:07:58 INFO  [success] Total time: 2 s, completed 21 mars 2024 09:07:58
+2024.03.21 09:07:59 WARN  no build target for: /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:07:59 INFO  [info] loading settings for project squelette-projet-interpreter from build.sbt ...
+2024.03.21 09:07:59 INFO  [info] set current project to Interpreter (in build file:/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/)
+2024.03.21 09:08:00 INFO  [success] Generated .bloop/squelette-projet-interpreter.json
+2024.03.21 09:08:00 INFO  [success] Generated .bloop/squelette-projet-interpreter-test.json
+2024.03.21 09:08:00 INFO  [success] Total time: 1 s, completed 21 mars 2024 09:08:00
+2024.03.21 09:08:01 INFO  time: ran 'sbt bloopInstall' in 17s
+2024.03.21 09:08:01 INFO  Attempting to connect to the build server...
+2024.03.21 09:08:01 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64 defined at /private/student/z/ez/oisorez/.bloop/bloop.json
+2024.03.21 09:08:05 WARN  no build target for: /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:08:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/.metals/bsp.trace.json or /private/student/z/ez/oisorez/.cache/metals/bsp.trace.json
+2024.03.21 09:08:07 WARN  no build target for: /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:08:10 WARN  no build target for: /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:08:10 INFO  time: Connected to build server in 9.18s
+2024.03.21 09:08:10 INFO  Connected to Build server: Bloop v1.5.13
+2024.03.21 09:08:11 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:08:11 INFO  Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.9. Compiling...
+2024.03.21 09:08:12 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.
+2024.03.21 09:08:12 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.
+2024.03.21 09:08:12 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.
+2024.03.21 09:08:12 INFO  time: indexed workspace in 1.9s
+2024.03.21 09:08:19 INFO    Compilation completed in 6.816s.
+2024.03.21 09:08:20 INFO  time: compiled squelette-projet-interpreter in 8.07s
+2024.03.21 09:08:20 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:08:20 INFO  time: compiled squelette-projet-interpreter in 89ms
+2024.03.21 09:08:20 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:08:20 INFO  time: compiled squelette-projet-interpreter in 62ms
+2024.03.21 09:08:32 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:08:32 INFO  time: compiled squelette-projet-interpreter in 82ms
+2024.03.21 09:08:40 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:08:40 INFO  time: compiled squelette-projet-interpreter in 77ms
+2024.03.21 09:08:51 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:08:51 INFO  time: compiled squelette-projet-interpreter in 76ms
+2024.03.21 09:08:52 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:08:52 INFO  time: compiled squelette-projet-interpreter in 64ms
+2024.03.21 09:08:59 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:08:59 INFO  time: compiled squelette-projet-interpreter in 74ms
+2024.03.21 09:09:02 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:02 INFO  time: compiled squelette-projet-interpreter in 63ms
+2024.03.21 09:09:20 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:20 INFO  time: compiled squelette-projet-interpreter in 60ms
+2024.03.21 09:09:21 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:21 INFO  time: compiled squelette-projet-interpreter in 59ms
+2024.03.21 09:09:25 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:25 INFO  time: compiled squelette-projet-interpreter in 62ms
+2024.03.21 09:09:26 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:26 INFO  time: compiled squelette-projet-interpreter in 57ms
+2024.03.21 09:09:28 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:28 INFO  time: compiled squelette-projet-interpreter in 66ms
+2024.03.21 09:09:29 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:29 INFO  time: compiled squelette-projet-interpreter in 58ms
+2024.03.21 09:09:31 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:31 INFO  time: compiled squelette-projet-interpreter in 59ms
+2024.03.21 09:09:35 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:35 INFO  time: compiled squelette-projet-interpreter in 58ms
+2024.03.21 09:09:37 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:37 INFO  time: compiled squelette-projet-interpreter in 54ms
+2024.03.21 09:09:40 WARN  Using indexes to guess the definition of NlValue
+2024.03.21 09:09:40 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:40 INFO  time: compiled squelette-projet-interpreter in 55ms
+2024.03.21 09:09:41 WARN  Using indexes to guess the definition of NlValue
+2024.03.21 09:09:40 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:40 INFO  time: compiled squelette-projet-interpreter in 22ms
+2024.03.21 09:09:58 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:09:58 INFO  time: compiled squelette-projet-interpreter in 65ms
+2024.03.21 09:10:06 INFO  compiling squelette-projet-interpreter (3 scala sources)
+2024.03.21 09:10:10 INFO  time: compiled squelette-projet-interpreter in 3.69s
+mars 21, 2024 9:10:10 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFOS: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.03.21 09:12:55 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:12:55 INFO  time: compiled squelette-projet-interpreter in 81ms
+2024.03.21 09:13:18 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:13:18 INFO  time: compiled squelette-projet-interpreter in 0.78s
+2024.03.21 09:13:31 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:13:31 INFO  time: compiled squelette-projet-interpreter in 75ms
+2024.03.21 09:14:03 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:14:03 INFO  time: compiled squelette-projet-interpreter in 0.82s
+2024.03.21 09:15:11 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:15:11 INFO  time: compiled squelette-projet-interpreter in 86ms
+2024.03.21 09:15:27 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:15:27 INFO  time: compiled squelette-projet-interpreter in 0.76s
+2024.03.21 09:15:35 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:15:35 INFO  time: compiled squelette-projet-interpreter in 78ms
+2024.03.21 09:15:37 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:15:37 INFO  time: compiled squelette-projet-interpreter in 0.69s
+2024.03.21 09:15:39 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:15:39 INFO  time: compiled squelette-projet-interpreter in 73ms
+2024.03.21 09:15:39 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:15:41 INFO  time: compiled squelette-projet-interpreter in 0.63s
+2024.03.21 09:15:43 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:15:43 INFO  time: compiled squelette-projet-interpreter in 0.7s
+2024.03.21 09:15:49 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:15:49 INFO  time: compiled squelette-projet-interpreter in 0.72s
+2024.03.21 09:15:49 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:15:50 INFO  time: compiled squelette-projet-interpreter in 0.12s
+2024.03.21 09:15:51 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:15:57 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:15:57 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:15:57 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:15:58 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:15:58 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:15:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+mars 21, 2024 9:16:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 556
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:07 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:09 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:11 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:11 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:12 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:12 INFO  time: compiled squelette-projet-interpreter in 0.13s
+2024.03.21 09:16:13 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:20 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:20 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:20 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:20 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:25 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:25 INFO  time: compiled squelette-projet-interpreter in 0.13s
+2024.03.21 09:16:25 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:25 INFO  time: compiled squelette-projet-interpreter in 0.1s
+2024.03.21 09:16:25 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:25 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:16:26 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:26 INFO  time: compiled squelette-projet-interpreter in 0.13s
+2024.03.21 09:16:26 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:26 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:16:32 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:34 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:35 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:35 INFO  time: compiled squelette-projet-interpreter in 0.15s
+2024.03.21 09:16:36 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:36 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:36 INFO  time: compiled squelette-projet-interpreter in 38ms
+2024.03.21 09:16:36 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:39 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:39 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:39 INFO  time: compiled squelette-projet-interpreter in 0.13s
+2024.03.21 09:16:40 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:41 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:41 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:16:41 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:48 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:48 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:48 INFO  time: compiled squelette-projet-interpreter in 0.12s
+2024.03.21 09:16:49 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:50 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:50 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:51 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:51 INFO  time: compiled squelette-projet-interpreter in 0.1s
+2024.03.21 09:16:52 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:54 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:55 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:16:55 INFO  time: compiled squelette-projet-interpreter in 68ms
+2024.03.21 09:16:55 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:16:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:17:00 WARN  Using indexes to guess the definition of interpreter
+2024.03.21 09:17:03 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:17:03 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:17:06 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:17:08 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:17:09 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:17:10 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:17:10 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:17:11 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:17:11 INFO  time: compiled squelette-projet-interpreter in 0.12s
+2024.03.21 09:17:12 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:17:34 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:17:34 INFO  time: compiled squelette-projet-interpreter in 0.13s
+2024.03.21 09:17:34 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:17:34 INFO  time: compiled squelette-projet-interpreter in 91ms
+2024.03.21 09:17:34 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:17:34 INFO  time: compiled squelette-projet-interpreter in 92ms
+2024.03.21 09:17:34 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:17:34 INFO  time: compiled squelette-projet-interpreter in 85ms
+2024.03.21 09:17:34 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:17:34 INFO  time: compiled squelette-projet-interpreter in 88ms
+2024.03.21 09:17:36 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:17:36 INFO  time: compiled squelette-projet-interpreter in 0.13s
+mars 21, 2024 9:18:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 805
+2024.03.21 09:18:31 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:18:39 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:18:40 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:18:41 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:18:41 INFO  time: compiled squelette-projet-interpreter in 70ms
+2024.03.21 09:18:41 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:18:43 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:18:44 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:18:45 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:18:45 INFO  time: compiled squelette-projet-interpreter in 80ms
+2024.03.21 09:18:45 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:18:45 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:18:46 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:18:46 INFO  time: compiled squelette-projet-interpreter in 80ms
+2024.03.21 09:18:47 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:18:48 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:18:48 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:18:48 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:18:49 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:01 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:02 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:03 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:04 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:19:04 INFO  time: compiled squelette-projet-interpreter in 97ms
+2024.03.21 09:19:04 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:05 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:19:05 INFO  time: compiled squelette-projet-interpreter in 90ms
+2024.03.21 09:19:06 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:07 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:07 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:08 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:08 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:09 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:09 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:10 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:19:10 INFO  time: compiled squelette-projet-interpreter in 0.15s
+2024.03.21 09:19:11 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:11 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:12 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:19:13 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:19:13 INFO  time: compiled squelette-projet-interpreter in 66ms
+2024.03.21 09:19:13 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:20:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:00 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:21:00 INFO  time: compiled squelette-projet-interpreter in 77ms
+2024.03.21 09:21:00 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:07 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:08 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:21:08 INFO  time: compiled squelette-projet-interpreter in 0.26s
+2024.03.21 09:21:09 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:35 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:35 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:21:35 INFO  time: compiled squelette-projet-interpreter in 82ms
+2024.03.21 09:21:36 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:38 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:39 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:21:39 INFO  time: compiled squelette-projet-interpreter in 0.18s
+2024.03.21 09:21:39 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:53 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:53 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:54 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:55 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:21:55 INFO  time: compiled squelette-projet-interpreter in 0.13s
+2024.03.21 09:21:55 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:57 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:21:57 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:21:57 INFO  time: compiled squelette-projet-interpreter in 0.27s
+2024.03.21 09:21:58 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:31 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:22:31 INFO  time: compiled squelette-projet-interpreter in 0.13s
+2024.03.21 09:22:31 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:35 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:36 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:22:36 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:22:37 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:40 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:41 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:41 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:22:41 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:22:42 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:47 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:48 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:22:48 INFO  time: compiled squelette-projet-interpreter in 69ms
+2024.03.21 09:22:48 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:49 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:50 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:22:50 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:22:51 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:51 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:22:51 INFO  time: compiled squelette-projet-interpreter in 69ms
+2024.03.21 09:22:51 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:52 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:52 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:52 WARN  Using indexes to guess the definition of out
+2024.03.21 09:22:52 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:22:52 INFO  time: compiled squelette-projet-interpreter in 0.12s
+2024.03.21 09:22:52 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:52 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:52 WARN  Using indexes to guess the definition of out
+2024.03.21 09:22:52 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:22:52 INFO  time: compiled squelette-projet-interpreter in 92ms
+2024.03.21 09:22:55 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:58 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:58 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:22:59 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:22:59 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:22:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:00 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:00 INFO  time: compiled squelette-projet-interpreter in 93ms
+2024.03.21 09:23:02 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:02 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:02 INFO  time: compiled squelette-projet-interpreter in 0.1s
+2024.03.21 09:23:03 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:03 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:03 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:04 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:04 INFO  time: compiled squelette-projet-interpreter in 0.1s
+2024.03.21 09:23:05 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+mars 21, 2024 9:23:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1129
+2024.03.21 09:23:11 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:11 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:12 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:12 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:14 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:14 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:14 INFO  time: compiled squelette-projet-interpreter in 74ms
+2024.03.21 09:23:15 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:15 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:17 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:18 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:18 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:18 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:19 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:20 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:20 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:23:20 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Using indexes to guess the definition of interpreterMemorySet
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Using indexes to guess the definition of program
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Using indexes to guess the definition of in
+2024.03.21 09:23:30 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:31 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:31 WARN  Using indexes to guess the definition of in
+2024.03.21 09:23:32 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:32 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:31 WARN  Using indexes to guess the definition of in
+2024.03.21 09:23:35 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:35 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:35 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:35 WARN  Using indexes to guess the definition of program
+2024.03.21 09:23:36 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:36 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:23:37 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:39 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:39 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:39 INFO  time: compiled squelette-projet-interpreter in 0.12s
+2024.03.21 09:23:40 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:40 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:41 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:41 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:23:42 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:45 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:49 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:50 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:50 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:51 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:51 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:23:52 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:53 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:53 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:54 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:54 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:23:55 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:55 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:55 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:23:56 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:56 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:57 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:23:58 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:23:58 INFO  time: compiled squelette-projet-interpreter in 94ms
+2024.03.21 09:23:58 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:00 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:05 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:05 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:06 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:24:06 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:24:07 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:12 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:13 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:24:13 INFO  time: compiled squelette-projet-interpreter in 64ms
+2024.03.21 09:24:14 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:19 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:20 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:24:20 INFO  time: compiled squelette-projet-interpreter in 65ms
+2024.03.21 09:24:20 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:22 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:22 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:24 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:25 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:26 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:24:26 INFO  time: compiled squelette-projet-interpreter in 70ms
+2024.03.21 09:24:26 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:27 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:28 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:24:28 INFO  time: compiled squelette-projet-interpreter in 88ms
+2024.03.21 09:24:29 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:24:29 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:24:29 INFO  time: compiled squelette-projet-interpreter in 70ms
+2024.03.21 09:24:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:27:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:27:31 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:31 INFO  time: compiled squelette-projet-interpreter in 0.1s
+2024.03.21 09:27:32 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:27:36 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:36 INFO  time: compiled squelette-projet-interpreter in 0.1s
+2024.03.21 09:27:36 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:36 INFO  time: compiled squelette-projet-interpreter in 86ms
+2024.03.21 09:27:36 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:36 INFO  time: compiled squelette-projet-interpreter in 86ms
+2024.03.21 09:27:36 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:37 INFO  time: compiled squelette-projet-interpreter in 96ms
+2024.03.21 09:27:38 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:38 INFO  time: compiled squelette-projet-interpreter in 0.1s
+2024.03.21 09:27:38 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:38 INFO  time: compiled squelette-projet-interpreter in 82ms
+2024.03.21 09:27:38 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:38 INFO  time: compiled squelette-projet-interpreter in 78ms
+2024.03.21 09:27:38 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:38 INFO  time: compiled squelette-projet-interpreter in 91ms
+2024.03.21 09:27:38 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:38 INFO  time: compiled squelette-projet-interpreter in 78ms
+2024.03.21 09:27:39 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:39 INFO  time: compiled squelette-projet-interpreter in 78ms
+2024.03.21 09:27:39 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:39 INFO  time: compiled squelette-projet-interpreter in 83ms
+2024.03.21 09:27:40 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:40 INFO  time: compiled squelette-projet-interpreter in 0.11s
+2024.03.21 09:27:40 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:40 INFO  time: compiled squelette-projet-interpreter in 77ms
+2024.03.21 09:27:40 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:27:40 INFO  time: compiled squelette-projet-interpreter in 83ms
+2024.03.21 09:28:02 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:29:48 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:29:48 INFO  time: compiled squelette-projet-interpreter in 0.1s
+2024.03.21 09:31:56 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:31:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:31:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:31:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:31:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:31:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:31:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:31:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:31:59 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:08 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:11 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:12 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:13 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:32:13 INFO  time: compiled squelette-projet-interpreter in 93ms
+2024.03.21 09:32:13 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:20 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:21 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:32:21 INFO  time: compiled squelette-projet-interpreter in 82ms
+2024.03.21 09:32:21 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:22 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:24 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:24 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:32:24 INFO  time: compiled squelette-projet-interpreter in 83ms
+2024.03.21 09:32:25 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:25 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:27 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:27 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:29 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:32:29 INFO  time: compiled squelette-projet-interpreter in 80ms
+2024.03.21 09:32:29 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:29 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:31 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:32 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:32:32 INFO  time: compiled squelette-projet-interpreter in 81ms
+2024.03.21 09:32:32 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:33 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:34 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:32:34 INFO  time: compiled squelette-projet-interpreter in 70ms
+2024.03.21 09:32:34 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:32:35 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:32:35 INFO  time: compiled squelette-projet-interpreter in 82ms
+2024.03.21 09:32:35 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:09 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:33:09 INFO  time: compiled squelette-projet-interpreter in 82ms
+2024.03.21 09:33:23 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:23 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:33:23 INFO  time: compiled squelette-projet-interpreter in 65ms
+2024.03.21 09:33:24 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:25 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:26 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:27 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:27 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:33:27 INFO  time: compiled squelette-projet-interpreter in 91ms
+2024.03.21 09:33:28 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:29 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:30 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:33:30 INFO  time: compiled squelette-projet-interpreter in 85ms
+2024.03.21 09:33:30 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:30 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:33:30 INFO  time: compiled squelette-projet-interpreter in 68ms
+2024.03.21 09:33:31 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:34 WARN  Could not load snapshot text for /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala/interpreter/interpreter.scala
+2024.03.21 09:33:35 INFO  compiling squelette-projet-interpreter (1 scala source)
+2024.03.21 09:33:35 INFO  time: compiled squelette-projet-interpreter in 0.65s
+2024.03.21 09:33:51 INFO  compiling squelette-projet-interpreter-test (4 scala sources)
+2024.03.21 09:33:52 INFO  time: compiled squelette-projet-interpreter-test in 1.17s
+2024.03.21 09:33:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/.metals/dap-server.trace.json or /private/student/z/ez/oisorez/.cache/metals/dap-server.trace.json
+2024.03.21 09:33:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/.metals/dap-client.trace.json or /private/student/z/ez/oisorez/.cache/metals/dap-client.trace.json
+2024.03.21 09:33:56 INFO  Starting debug proxy for [interpreter.TestsCommands()]
+2024.03.21 09:33:56 INFO  Trying to attach to remote debuggee VM localhost:36629 .
+2024.03.21 09:33:56 INFO  Attaching to debuggee VM succeeded.
+mars 21, 2024 9:35:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2024.03.21 09:35:57 INFO  Canceling debug proxy for [interpreter.TestsCommands()]
+2024.03.21 09:36:01 INFO  Closing debug server tcp://0.0.0.0:41793

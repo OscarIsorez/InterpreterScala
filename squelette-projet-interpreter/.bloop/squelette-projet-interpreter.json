@@ -1,0 +1,197 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "squelette-projet-interpreter",
+        "directory": "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter",
+        "workspaceDir": "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter",
+        "sources": [
+            "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala",
+            "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala-2.13",
+            "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/scala-2",
+            "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/java",
+            "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/target/scala-2.13/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9.jar",
+            "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/2.2.0/scala-parser-combinators_2.13-2.2.0.jar"
+        ],
+        "out": "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/.bloop/squelette-projet-interpreter",
+        "classesDir": "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/.bloop/squelette-projet-interpreter/scala-2.13/classes",
+        "resources": [
+            "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/src/main/resources",
+            "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/target/scala-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.9",
+            "options": [
+                
+            ],
+            "jars": [
+                "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9.jar",
+                "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.9/scala-compiler-2.13.9.jar",
+                "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.9/scala-reflect-2.13.9.jar",
+                "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+                "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
+                "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "options": [
+                    "-Duser.dir=/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "options": [
+                    "-Duser.dir=/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter"
+                ]
+            },
+            "classpath": [
+                "/private/student/z/ez/oisorez/Documents/L2/CAL/Projet/InterpreterScala/squelette-projet-interpreter/.bloop/squelette-projet-interpreter/scala-2.13/classes",
+                "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9.jar",
+                "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/2.2.0/scala-parser-combinators_2.13-2.2.0.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "2.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/2.2.0/scala-parser-combinators_2.13-2.2.0.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/2.2.0/scala-parser-combinators_2.13-2.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.9",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/private/student/z/ez/oisorez/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
